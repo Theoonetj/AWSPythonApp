@@ -1,5 +1,7 @@
+
+
 # our base image
-FROM python:2
+FROM python:3
 
 # install Python modules needed by the Python app
 COPY requirements.txt /usr/src/app/
